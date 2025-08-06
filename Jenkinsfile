@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/praduman8435/Capstone-Mega-DevOps-Project.git'
+                git branch: 'main', url: 'https://github.com/RenuRoshni/Capstone-Mega-DevOps-Project.git'
             }
         }
         stage('Compilation') {
